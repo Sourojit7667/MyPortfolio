@@ -62,7 +62,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-24 bg-linear-to-b from-[#1e293b] to-[#0f172a] text-white relative overflow-hidden"
+      className="py-24 bg-gradient-to-b from-[#1e293b] to-[#0f172a] text-white relative overflow-hidden"
     >
       {/* Background Pattern */}
       <div className="absolute inset-0 dot-grid opacity-30"></div>
@@ -90,7 +90,7 @@ const Projects = () => {
               style={{ animationDelay: `${index * 200}ms` }}
             >
               {/* Gradient Border Effect */}
-              <div className="absolute -inset-0.5 bg-linear-to-r from-blue-600 to-emerald-600 rounded-2xl opacity-0 group-hover:opacity-100 blur transition duration-500"></div>
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-emerald-600 rounded-2xl opacity-0 group-hover:opacity-100 blur transition duration-500"></div>
 
               <div className="relative bg-[#1e293b] overflow-hidden shadow-2xl rounded-2xl border border-gray-700 hover-lift transition-all duration-500">
                 {/* Project Image */}
@@ -102,7 +102,7 @@ const Projects = () => {
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                   ) : (
-                    <div className="h-full w-full bg-linear-to-br from-blue-600/20 to-emerald-600/20 flex items-center justify-center">
+                    <div className="h-full w-full bg-gradient-to-br from-blue-600/20 to-emerald-600/20 flex items-center justify-center">
                       <svg
                         className="w-20 h-20 text-gray-600 group-hover:text-blue-500 transition-colors"
                         fill="none"
@@ -119,7 +119,7 @@ const Projects = () => {
                     </div>
                   )}
                   {/* Overlay on Hover */}
-                  <div className="absolute inset-0 bg-linear-to-t from-[#1e293b] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#1e293b] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
 
                 {/* Content */}
@@ -136,7 +136,7 @@ const Projects = () => {
                     {project.tech.map((t) => (
                       <span
                         key={t}
-                        className="px-3 py-1 bg-linear-to-r from-blue-600/20 to-emerald-600/20 border border-blue-500/30 text-blue-300 text-xs rounded-full font-medium hover:scale-105 transition-transform"
+                        className="px-3 py-1 bg-gradient-to-r from-blue-600/20 to-emerald-600/20 border border-blue-500/30 text-blue-300 text-xs rounded-full font-medium hover:scale-105 transition-transform"
                       >
                         {t}
                       </span>
@@ -147,7 +147,7 @@ const Projects = () => {
                   <div className="flex gap-3">
                     <a
                       href={project.link}
-                      className="flex-1 group/btn flex items-center justify-center gap-2 px-4 py-2.5 bg-linear-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white text-sm font-medium rounded-lg transition-all duration-300 hover-glow"
+                      className="flex-1 group/btn flex items-center justify-center gap-2 px-4 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white text-sm font-medium rounded-lg transition-all duration-300 hover-glow"
                     >
                       <span>Live Demo</span>
                       <svg

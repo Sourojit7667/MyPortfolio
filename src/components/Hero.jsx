@@ -8,12 +8,12 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative overflow-hidden bg-linear-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white py-24 lg:py-36 particle-bg dot-grid">
+    <div className="relative overflow-hidden bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white py-24 lg:py-36 particle-bg dot-grid">
       {/* Animated Background Blobs */}
       <div className="absolute top-0 left-1/2 w-full -translate-x-1/2 h-full overflow-hidden pointer-events-none z-0 opacity-30">
-        <div className="absolute top-[10%] left-[10%] w-120 h-120 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
-        <div className="absolute top-[10%] right-[10%] w-120 h-120 bg-emerald-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
-        <div className="absolute bottom-[10%] left-[40%] w-120 h-120 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
+        <div className="absolute top-[10%] left-[10%] w-[30rem] h-[30rem] bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
+        <div className="absolute top-[10%] right-[10%] w-[30rem] h-[30rem] bg-emerald-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
+        <div className="absolute bottom-[10%] left-[40%] w-[30rem] h-[30rem] bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
       </div>
 
       {/* Floating Particles */}
@@ -63,7 +63,7 @@ const Hero = () => {
           <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
             <a
               href="#projects"
-              className="group flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-xl shadow-lg text-white bg-linear-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 transition-all duration-300 hover-lift hover-glow"
+              className="group flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-xl shadow-lg text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 transition-all duration-300 hover-lift hover-glow"
             >
               <span>View Work</span>
               <svg

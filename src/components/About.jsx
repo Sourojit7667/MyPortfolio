@@ -36,7 +36,7 @@ const About = () => {
     <section
       id="about"
       ref={sectionRef}
-      className="py-24 bg-linear-to-b from-[#0f172a] to-[#1e293b] text-white relative overflow-hidden"
+      className="py-24 bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white relative overflow-hidden"
     >
       {/* Background Effects */}
       <div className="absolute inset-0 dot-grid opacity-20"></div>
@@ -69,7 +69,7 @@ const About = () => {
                   className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-linear-to-t from-[#0f172a]/80 via-transparent to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/80 via-transparent to-transparent"></div>
               </div>
               {/* Floating Decorative Elements */}
               <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-600 rounded-full mix-blend-multiply filter blur-2xl opacity-40 animate-pulse"></div>

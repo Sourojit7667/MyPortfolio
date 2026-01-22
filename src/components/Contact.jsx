@@ -41,7 +41,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-24 bg-linear-to-b from-[#1e293b] to-[#0f172a] text-white relative overflow-hidden"
+      className="py-24 bg-gradient-to-b from-[#1e293b] to-[#0f172a] text-white relative overflow-hidden"
     >
       {/* Background Effects */}
       <div className="absolute inset-0 dot-grid opacity-20"></div>
@@ -63,7 +63,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Contact Form */}
           <div className="relative animate-fadeInUp animation-delay-600">
-            <div className="absolute inset-0 bg-linear-to-r from-blue-600 to-emerald-600 shadow-lg transform -skew-y-3 sm:skew-y-0 sm:-rotate-3 sm:rounded-3xl opacity-20 blur"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-emerald-600 shadow-lg transform -skew-y-3 sm:skew-y-0 sm:-rotate-3 sm:rounded-3xl opacity-20 blur"></div>
             <div className="relative glass-strong shadow-2xl sm:rounded-3xl p-8 border border-gray-700">
               <form className="space-y-6" onSubmit={handleSubmit}>
                 {/* Web3Forms Access Key */}
@@ -127,7 +127,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full group flex items-center justify-center gap-2 py-4 px-6 bg-linear-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-medium rounded-lg shadow-lg transition-all duration-300 hover-lift hover-glow disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full group flex items-center justify-center gap-2 py-4 px-6 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-medium rounded-lg shadow-lg transition-all duration-300 hover-lift hover-glow disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? (
                     <>
